@@ -10,7 +10,7 @@ alias la='l -a'
 alias sl=ls
 alias ':q'='cd ..'
 
-alias szrc='source ~/.zshrc'
+alias szrc='source ~/.zshrc && echo "sourced ~/.zshrc"'
 alias vzrc='vim ~/.zshrc'
 alias vvrc='vim ~/.vimrc'
 
@@ -32,3 +32,7 @@ zstyle ':vcs_info:git:*' formats '%b'
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 PROMPT='%F{green}%n@attis %1~ %F{yellow}${vcs_info_msg_0_} %F{green}%# %F{white}'
+
+
+
+[ -f /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash ]
