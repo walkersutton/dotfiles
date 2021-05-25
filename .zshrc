@@ -22,6 +22,7 @@ function chpwd() {
 
 # DOCKER
 alias dra='docker rm $(docker ps -a -q)'
+alias dsa='docker stop $(docker ps -a -q)'
 
 # PROMPT
 # Load version control information
