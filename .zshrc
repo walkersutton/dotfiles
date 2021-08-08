@@ -36,6 +36,4 @@ zstyle ':vcs_info:git:*' formats '%b'
 setopt PROMPT_SUBST
 PROMPT='%F{green}%n@attis %1~ %F{yellow}${vcs_info_msg_0_} %F{green}%# %F{white}'
 
-
-
 [ -f /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash ]

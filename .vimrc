@@ -1,5 +1,8 @@
 syntax enable
 
+" Use new regular expression engine
+set re=0
+
 " force 256 colors in terminal
 set t_Co=256
 
