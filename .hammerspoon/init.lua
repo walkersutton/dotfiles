@@ -19,3 +19,12 @@ hs.battery.watcher.new( redeye ):start()
 hs.hotkey.bind({'cmd', 'alt'}, 'R', function() 
     hs.screen.restoreGamma()
 end)
+
+hs.hotkey.bind({'cmd'}, 'return', function()
+    notes = hs.application('Notes')
+    hs.application.launchOrFocus('Notes')
+    delay = notes == nil and .05 or 0
+    hs.timer.delayed.new(delay, function()
+        hs.eventtap.keyStroke({'⌥', 'cmd'}, 'F')
+    end):start()
+end)
