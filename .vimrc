@@ -37,7 +37,7 @@ set hlsearch
 
 set tabstop=4
 set shiftwidth=4
-set expandtab
+" set expandtab " Makefile needs tab characters to work
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
