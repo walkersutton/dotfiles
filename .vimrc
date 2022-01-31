@@ -45,6 +45,9 @@ set encoding=utf8
 " something about line endings (?)
 set ffs=unix,dos,mac
 
+" disable bell sound
+set belloff=all
+
 """"""""""""
 " MAPPINGS "
 """"""""""""
@@ -59,3 +62,5 @@ set ffs=unix,dos,mac
 """"""""""""""""
 let g:opamshare = substitute(system('opam var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
+
