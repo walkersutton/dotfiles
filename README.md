@@ -1,6 +1,8 @@
 # dotfiles and mac config
 
-## Homebrew
+
+
+## [Homebrew](https://brew.sh/)
 * [Rectangle](https://github.com/rxhanson/Rectangle)
 * [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 * [icdiff](https://github.com/jeffkaufman/icdiff)
