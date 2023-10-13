@@ -6,6 +6,9 @@
 * [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 * [icdiff](https://github.com/jeffkaufman/icdiff)
 
+## App Store
+* [The Clock](https://apps.apple.com/us/app/the-clock/id488764545?mt=12)
+
 
 [configuration reference](https://www.atlassian.com/git/tutorials/dotfiles)
 <!--
