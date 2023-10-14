@@ -2,6 +2,9 @@
 
 ## [Homebrew](https://brew.sh/)
 
+### Update Brewfile
+`brew bundle dump --force`
+
 ## Mac config
 
 ### Remove Dock Animation and Delay
