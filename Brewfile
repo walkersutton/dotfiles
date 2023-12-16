@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 brew "coreutils"
 brew "asdf"
+brew "docutils"
 brew "curl"
 brew "gawk"
 brew "git"
@@ -9,14 +10,21 @@ brew "icdiff"
 brew "mas"
 brew "wget"
 cask "basictex"
+cask "docker"
+cask "figma"
 cask "focusrite-control"
 cask "hammerspoon"
 cask "monitorcontrol"
+cask "ngrok"
+cask "notion"
 cask "postman"
 cask "rectangle"
 cask "spotify"
 cask "visual-studio-code"
+cask "zoom"
+mas "Elmedia Video Player", id: 1044549675
 mas "Final Cut Pro", id: 424389933
 mas "Hand Mirror", id: 1502839586
 mas "Logic Pro", id: 634148309
 mas "The Clock", id: 488764545
+vscode "vscodevim.vim"
